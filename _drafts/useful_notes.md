@@ -27,6 +27,7 @@
 
 ## Resources
  * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
+ * [How Jekyll Works](https://www.bytesandwich.com/jekyll/software/blogging/2016/09/14/how-does-jekyll-work.html)
 
 ## Markdown guide
 
