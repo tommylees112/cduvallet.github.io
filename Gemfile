@@ -14,7 +14,9 @@ gem "github-pages", group: :jekyll_plugins
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
+# ONLY UNCOMMENT IF EVER WANT TO REVERT TO GEM-BASED JEKYLL
 # gem "jekyll"
+# gem "minimal-mistakes-jekyll"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
@@ -23,4 +25,15 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+  gem "jekyll-include-cache"
+  gem 'hawkins'
 end
+
+# The following plugins are automatically loaded by the theme-gem:
+#   gem "jekyll-paginate"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-gist"
+#   gem "jekyll-feed"
+#   gem "jemoji"
+#   gem "jekyll-data"
+#   gem "jekyll-include-cache"

@@ -1,0 +1,18 @@
+/usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.6/lib/bundler/runtime.rb:313:in `check_for_activated_spec!': You have already activated concurrent-ruby 1.1.4, but your Gemfile requires concurrent-ruby 1.0.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+	from /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.6/lib/bundler/runtime.rb:31:in `block in setup'
+	from /usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/forwardable.rb:229:in `each'
+	from /usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/forwardable.rb:229:in `each'
+	from /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.6/lib/bundler/runtime.rb:26:in `map'
+	from /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.6/lib/bundler/runtime.rb:26:in `setup'
+	from /usr/local/lib/ruby/gems/2.5.0/gems/bundler-1.16.6/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.5.0/gems/jekyll-3.8.4/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.5.0/gems/jekyll-3.8.4/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:23:in `load'
+	from /usr/local/bin/jekyll:23:in `<main>'
+Configuration file: /Users/TommyLees/tommylees112.github.io/_config.yml
+            Source: /Users/TommyLees/tommylees112.github.io
+       Destination: /Users/TommyLees/tommylees112.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme mmistakes/minimal-mistakes
+jekyll 3.6.2 | Error:  Zip end of central directory signature not found

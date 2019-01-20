@@ -9,18 +9,30 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student in the Department of Biological Engineering at MIT.
-I work in [Eric Alm's lab](http://almlab.mit.edu), studying the relationship between the human microbiome and health and disease.
-More generally, I'm interested in applying **personalized medicine approaches for public health**.
-I'm passionate about making local impact to move our society toward a more just ideal.
-That means learning about and working for increased **diversity and equity in STEM** and **technical approaches for social good**.
+> _I am a recovering athlete with a coding problem and an obsession with learning stuff._
 
-When I'm not in lab doing [research](research/), I spend my time working to improve the BE Department student experience as one of the [BE Graduate Student Board](http://begradboard.mit.edu/) Diversity co-Chairs and as a member of the [BE REFS](http://berefs.com).
-As Diversity co-Chair, I'm especially proud of having co-started the [BE Application Assistance Program](http://be.mit.edu/academic-programs/prospective-graduate/beaap) and co-written the BE Department's [Community Values Statement](http://be.mit.edu/about/department-values-statement).
-Through REFS, I've learned **conflict management** skills that have positively impacted almost every aspect of my life.
+I'm a PhD student with the [NERC Environmental Research DTP](https://www.environmental-research.ox.ac.uk/) at Oxford University.
+I work with [Professor Simon Dadson](https://www.geog.ox.ac.uk/staff/sdadson.html) and [Dr Steven Reece](http://www.robots.ox.ac.uk/~reece/) studying East African Droughts using Earth Observation data.
+I'm extremely interested in applying **Machine Learning** techniques to Environmental Science to try and **combine Earth Observation and Model** data.
 
-When I'm not doing those things, I'm probably outside chasing after a **frisbee**.
-Through my involvement in the sport first in [Cambodia](http://www.phnompenhpost.com/post-weekend/unconventional-sport-finds-unlikely-home-cambodia) and now on [MIT's women's team](http://scripts.mit.edu/~womens-ult/), I've become passionate about sport's ability to drive [social change](https://www.facebook.com/youthultimateproject) and push [gender equity](https://thenib.com/the-sports-wage-gap-needs-to-close) forward.
+I'm passionate about **learning new techniques**, about **contributing to open source tools** and **bringing people together** to address the most pressing challenges facing our species.
 
-Before moving to Boston, I lived for a year in **Cambodia** working for [Engineering World Health](http://www.ewh.org/) as a [Luce Scholar](http://www.hluce.org/lsprogram.aspx).
-Before that, I studied biomedical engineering at Columbia University.
+When I'm not messing around at my computer I can often be found doing a number of sports. Like a recovering alcoholic, I never seem to be able to get away from competing. Formerly a member of the **GB Modern Pentathlon Team**, I now run with the University Athletics Teams, Swim with the University Swimming Teams and have Fenced with the University Fencing Team.
+
+Coding is the *superpower* I am trying to develop. I love the ability to **build** software, and enjoy experimenting with **Data Science** techniques and love finding **data to answer interseting questions**.
+
+This site is my way of **sharing** some of this work with the world...
+
+## **Skills that I am actively developing**
+
+- Programming
+- Data Science
+- Mathematical and Statistical Modelling
+- Distilling complexity to deliver clarity (communicating research)
+
+## Other Experiences
+Before moving to Oxford I worked in Cambodia for a **Water and Sanitation** NGO, [WaterSHED](http://watershedasia.org/). As part of the Business and Development Team I was responsible for exploring ways of getting **stakeholders to share their data**. People were extremely receptive to the idea and we partnered with [Open Development Cambodia](https://opendevelopmentcambodia.net/) to provide a platform for organisations to pool their data resource. This work involved working closely with WaterAid, and the Government of Cambodia.
+
+I have also spent time in London as a Web Analyst for a Digital Marketing Agency, and in Southampton with Ordnance Survey, the UK National mapping agency.
+
+**NOTE**: This site was forked from []() whose structure I have borrowed from heavily.

@@ -11,7 +11,7 @@
   * _talks/
 * Footer: _includes/footer.html
 * Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+* Profile image (can set in _config.yml_): images/profile.png
 
 ## Tips and hints
 
@@ -21,6 +21,9 @@
   * Orange circle: building
   * Red X: error
   * No icon: not built
+
+## Adding images
+![image-center](/assets/images/filename.jpg){: .align-center}
 
 ## Resources
  * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)

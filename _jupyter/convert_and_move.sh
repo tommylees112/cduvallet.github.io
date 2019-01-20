@@ -1,3 +1,4 @@
+# convert_and_move.sh
 nb=$1
 
 jupyter nbconvert $nb --to markdown

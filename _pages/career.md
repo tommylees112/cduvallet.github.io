@@ -4,29 +4,26 @@ permalink: /career/
 author_profile: true
 ---
 
-## **My goal is to apply personalized medicine methods to public health.**
+## **My goal is to solve societally relevant problems using data and computational statistics**
 
-My ideal job is one in which I help **shape the scientific vision** of a company which uses **computational biology to impact society**.
-
-More specifically, I envision my ideal **role** as a CSO, or CSO-like person. I want to:
-
-- interact with data analysis in a non-trivial way, either through doing analyses myself or advising on computational/data analysis work
-- engage non-scientists and get them excited about our work and potential impact
-- shape the long-term vision of the company I am a part of
+My ideal **role** is as a Data Scientist or Data Science type person. I want to:
+- be meaningfully involved in data analysis.
+- apply modelling techniques to derive insights from data.
+- engage others to get them excited about these insights.
 
 My ideal **company**:
 
-- impacts society through public health interventions or other population-level effects
-- harnesses computational biology and 'omics data to achieve impact
-- centers its values in every aspect of the scientific work it does
+- Works with lots of different datasets addressing a variety of problems.
+- Has a strong focus on **lifelong learning** and continous improvement.
+- Has a focus on **delivering impact** and improving people's lives.
+- Is filled with **people who are constantly striving to be better**.
 
-My long-term career goal is to be a **key player in shaping the integration of precision medicine into public health**, specifically focusing on conditions _other_ than cancer (e.g. infectious disease, lifestyle-associated diseases, nutrition, health disparities, etc).
+## **Jobs I would love to do:**
 
-In my mind, "**precision medicine**" means any combination of multi-omics or otherwise "big" data and some sort of fine resolution (e.g. at the individual or neighborhood level, and/or longitudinal).
+- Working for an organisation that uses data to improve responses to and forecasting of **natural disasters**.
+- Working for a company looking at using **Earth Observation data for mapping and monitoring** of social deprivation, water and food security and the spread of disease.
+- Working with a Data Science consultancy firm who are approached with interesting datasets and problems and are tasked with **finding actionable insights from those datasets**.
+- Work on political polling or sports analytics.
 
-## **Jobs that would really excite me:**
+After viewing the play Hamilton, I left thinking _'Hamilton had the American Revolution. What is my American Revolution?'_. I believe the most pressing issue of our times is **climate change**. It is a global issue that interacts with all other issues, whether they are **inequality** or **lack of access to education, sanitation and other human rights**.
 
-- Shaping the future of data (especially biological 'omics data) in public organizations like the CDC, WHO, or other large key players
-- Establishing a data science team in an otherwise clinical or public health place (e.g. Data Science Director at the NIAID, Chief Data Officer in a large hospital or at a city or state public health agency)
-- Early employee or leader at a company innovating on public health. For example, one that is creating new types of data for public health surveillance, and/or developing novel biomarkers for common diseases which have known health disparities
-- Bonus points: a job that centers building up the open-source community (e.g. setting up computational infrastructure in labs around the world)
