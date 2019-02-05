@@ -14,11 +14,16 @@ header:
 
 ---
 
+# TODO:
+* put the code into the assets/scripts folder
+* create some small netcdf files for people to test the code on
+* just check it actually works
+
 As my second blog post I will be writing a little note-to-self on how to use xarray to change the dimensions of multiple netcdf objects so that they all match. This makes selecting multiple variables for the same grid-point on the earth's surface so much simpler.
 
 **NOTE**: this code is probably awfully written so if anyone has a better way of doing it, or else has any other comments then they would be very much appreciated!
 
-NetCDF is a data format which contains n-dimensional arrays and associated metadata (geolocations, previous transformations, source). It is widely used in climate science and tends to be the data format that I have to work with for my PhD. There are a number of very useful tools for working with NetCDF data formats including `ncview`, `ncdump -h` and the `cdo` and `nco` commands. Here we will be focusing on using the brilliant `xarray` package for working with NetCDF. For more information checkout the xarray [documentation](http://xarray.pydata.org/en/stable/).
+NetCDF is a data format which contains n-dimensional arrays and associated metadata (geolocations, previous transformations, source). It is widely used in climate science and tends to be the data format that I have to work with for my PhD. There are a number of very useful tools for working with NetCDF data formats including `ncview`, `ncdump -h` and the `cdo` and `nco` commands. Here we will be focusing on using the brilliant `xarray` package for working with NetCDF. For more information check out the xarray [documentation](http://xarray.pydata.org/en/stable/).
 
 ***
 
@@ -114,7 +119,7 @@ for ds_ in other_netcdfs:
 
 ### a) convert to the same time frequency
 
-The `if` statement was required in order to capture behaviour for both `xr.Dataarray` and `xr.Dataset` objects.
+The `if` statement was required in order to capture behaviour for both `xr.DataArray` and `xr.Dataset` objects.
 
 ```python
 def convert_to_same_time_freq(reference_ds,ds):
@@ -137,9 +142,10 @@ def convert_to_same_time_freq(reference_ds,ds):
 I had some problems here because of the hard upper limit in python. Whereby, when selecting from a list the values are taken **UP TO BUT NOT INCLUDING** this value. At least I think that is what is going on here.
 
 e.g.
-```
+```python
 In [1]: [0,1,2,3,4,5][:5]
 Out[1]: [0, 1, 2, 3, 4]
+
 In [2]: [0,1,2,3,4,5][:6]
 Out[2]: [0, 1, 2, 3, 4, 5]
 ```
@@ -187,7 +193,7 @@ def select_same_time_slice(reference_ds, ds):
 
 This is where we get to use **`xESMF`** (imported as `xe`) for regridding!
 
-Unfortunately, my initial one-liner was made a multi-liner by the difficulties of working with `xr.Dataset`'s rather than `xr.Dataarray`'s. In order to work with `xr.Dataset` you have to first **turn them into `xr.Dataarray`**, do the regridding *then* recombine them after the fact.
+Unfortunately, my initial one-liner was made a multi-liner by the difficulties of working with `xr.Dataset`s rather than `xr.DataArray`s. In order to work with `xr.Dataset` you have to first **turn them into `xr.DataArray`**, do the regridding *then* recombine them after the fact.
 
 ```python
 def convert_to_same_grid(reference_ds, ds):
@@ -227,7 +233,9 @@ def convert_to_same_grid(reference_ds, ds):
 
 ### d) select the same lat lon bounding box
 
-We again experienced some pretty strange behaviour here.
+We again experienced some pretty strange behaviour here. I had to check that the slice didn't select 0 latitude values from the other dataset and if it did, then I told it to look at the latitude values the other way round (from min-max, or max-min).
+
+*NOTE:* we are assuming that the other datasets do overlap spatially with the reference dataset.
 
 ```python
 def select_same_lat_lon_slice(reference_ds, ds):
@@ -242,6 +250,7 @@ def select_same_lat_lon_slice(reference_ds, ds):
         ds = ds.sel(lat=slice(reference_ds.lat.max(), reference_ds.lat.min()))
     else:
         ds = ds.sel(lat=slice(reference_ds.lat.min(), reference_ds.lat.max()))
+
     ds = ds.sel(lon=slice(reference_ds.lon.min(), reference_ds.lon.max()))
 
     try:
@@ -286,6 +295,6 @@ save_netcdf(output_ds, "output.nc")
 
 ***
 
-This has been turned into a little [command line script](assets/scripts/.py) which should (might?) work with different datasets. Hopefully this serves as a piece of documentation. Worst case scenario it has helped me out to clean up and check my code.
+This has been turned into a little [command line script](assets/scripts/.py) which should (might?) work with different datasets. Hopefully this serves as an outline of how the script works. Worst case scenario it has helped me to check my code. It has also exposed all sorts of extra issues, but published is better than perfect!
 
 Any one who wants to use it please feel free! Let me know if it does/doesn't work.
