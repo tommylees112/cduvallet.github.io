@@ -7,6 +7,8 @@ categories:
   - ESoWC,news
 tags:
   - edge case
+permalink: /posts/2019/1/esowc_kick_off
+date: 2019-05-02
 ---
 
 # Great news!
