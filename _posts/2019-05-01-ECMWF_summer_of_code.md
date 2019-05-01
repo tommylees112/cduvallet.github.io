@@ -26,6 +26,8 @@ What is awesome is our complementary skill set! Gabi is an absolute coding legen
 # ECMWF Summer of Weather Code
 > The Summer of Weather Code(ESoWC) programme by the European Centre for Medium-Range Weather Forecasts (ECMWF) is a collabrative online programme to promote the development of weather-related open-source software. [Ref](https://github.com/esowc/challenges_2019)
 
+![ESoWC](ESoWC.jpg)
+
 While playing with this problem we came across the ECMWF [**Summer of Weather Code**](https://www.ecmwf.int/en/learning/workshops/ecmwf-summer-weather-code-2019) Competition. [ECMWF](https://www.ecmwf.int/), the European Centre for Medium Range Weather Forecasting, are global leaders in monthly, seasonal and medium-range weather forecasting and they are both a research institute and an operational weather forecasting service.
 
 ECMWF had [12 challenges](https://github.com/esowc/challenges_2019) for teams to contribute to. They picked 5 winning teams from all applications across all 12 challenges. **And we got one!**.
