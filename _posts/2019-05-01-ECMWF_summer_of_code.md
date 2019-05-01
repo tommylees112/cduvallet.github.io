@@ -7,6 +7,7 @@ categories:
   - news
 tags:
   - ESoWC
+permalink: /posts/2019/1/esowc_kick_off
 date: 2019-05-02
 ---
 
