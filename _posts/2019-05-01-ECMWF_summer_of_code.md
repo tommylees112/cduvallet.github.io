@@ -51,10 +51,10 @@ The overarching aim of our proposal is to build a flexible experimental set up w
 *  *input datasets*
 * *machine learning algorithms*
 
-#### Spatio-temporal Relationships
+### Spatio-temporal Relationships
 We want to consider both the spatial and temporal relationships in our model, as far as possible, and we have a focus on interpreting what the models are learning.
 
-#### Interpretability
+### Interpretability
 A key criticism lobbied against machine learning techniques is that they fail to provide insights into the processes which drive our predictions. They're great at making predictions but do they really help us to understand the system we are studying?
 
 Much of our focus will be to make these models interpretable. One way of doing this is with [SHAP values](https://medium.com/@gabrieltseng/interpreting-complex-models-with-shap-values-1c187db6ec83). Essentially, **the SHAP values tell us how important each feature is and in what direction they push our predictions**. This will be very useful for 2 reasons:
