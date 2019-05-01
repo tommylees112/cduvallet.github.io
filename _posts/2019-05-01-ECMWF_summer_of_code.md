@@ -4,7 +4,7 @@ title:  "ECMWF Summer of Weather Code Competition 2019"
 # header:
 #   teaser: "unsplash-gallery-image-2-th.jpg"
 categories:
-  - ESoWC, news
+  - ESoWC,news
 tags:
   - edge case
 ---
