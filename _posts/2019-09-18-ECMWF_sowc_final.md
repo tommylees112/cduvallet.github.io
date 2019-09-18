@@ -13,7 +13,7 @@ date: 2019-09-18
 
 The four month Summer of Weather Code project has drawn to a close. The codebase can be found on Github [here](https://github.com/esowc/ml_drought). The process has been hugely informative and incredibly fun.
 
-<div style="width: 400px; border: 0;">
+<div style="width: 550px; border: 10px;">
   <p>
     <img class="aligncenter" src="http://tommylees112.github.io/images/esowc_pipeline_overview.png" alt="ESoWC: The Pipeline" width="810" height="265"/>
   </p>
