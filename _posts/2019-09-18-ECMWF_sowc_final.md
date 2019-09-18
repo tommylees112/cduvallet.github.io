@@ -19,7 +19,7 @@ The four month Summer of Weather Code project has drawn to a close. The codebase
   </p>
 </div>
 
-## Our Summer in Numbers
+##Our Summer in Numbers
 
 Gabi and I have been writing code together almost every day from June through to the end of August. Some of the numbers speak for themselves.
 
@@ -29,7 +29,7 @@ We have written <b>18,544<\b> lines of Python code including <b>181<\b> unit tes
 
 In order to work together over national borders and time zones we used Slack to stay in contact. We sent over <b>15,600<\b> Slack messages just to each other!
 
-<div style="width: 755px; border: 0;">
+<div style="width: 400px; border: 0;">
   <p>
     <img class="aligncenter" src="http://tommylees112.github.io/images/esowc_numbers.png" alt="ESoWC by Numbers" width="810" height="265"/>
   </p>
@@ -37,7 +37,7 @@ In order to work together over national borders and time zones we used Slack to 
 
 ## What have we learned?
 
-<div style="width: 755px; border: 0;">
+<div style="width: 350px; border: 0;">
   <p>
     <img class="aligncenter" src="http://tommylees112.github.io/images/esowc_learning.png" alt="ESoWC: Learnings" width="810" height="265"/>
   </p>
@@ -50,23 +50,23 @@ Software development techniques can really help scientists! By working with Gabi
 
 Working at the interface of climate science and machine learning can lead to really interesting questions and answers. We were focused on producing accurate predictions of vegetation health and interpreting the importance of different input features. However, once you begin to look for applications of Machine Learning in Climate Sciences a whole world of possibilities opens up. These range from [improving parameterisations](https://www.pnas.org/content/pnas/early/2018/09/05/1810286115.full.pdf), to [learning symbolic representations of a dynamical system from data](https://www.sciencedirect.com/science/article/pii/S0021999117309014).
 
-## What next?
+##What next?
 
 We have built something that we can be incredibly proud of. However, as with all good projects there is a lot left to do!
 
 The future roadmap can be split into three components. Algorithms, the Pipeline itself and Experiments.
 
-### Algorithms
+###Algorithms
 
 It would be great to implement a convolutional neural network to better account for spatial structures in the model. This would allow us to test whether the remaining error is reduced by accounting for spatial covariability.
 
 I would also like to implement gradient boosted regression trees. They are useful baseline models that tend to work very well out of the box. The reason we did not implement them earlier is that we were unable to read our data into memory.
 
-### Pipeline
+###Pipeline
 
 We have the functionality to run the pipeline at different temporal scales. We have currently run it at a monthly timescale because this reduced our data requirements. However, I want to test the pipeline for daily timesteps in order to prove its efficacy at shorter lead times.
 
-### Experiments
+###Experiments
 
 Finally, we want to experiment with different target datasets and incorporate the dynamical forecast data. Choosing a different target dataset (SHOULD) be relatively straightforward.
 
@@ -74,7 +74,7 @@ Working with the seasonal forecast data from [S5](https://www.ecmwf.int/en/forec
 
 Ultimately, I hope to continue to use the pipeline to produce papers for my PhD. I am confident that it is a really useful tool for answering a variety of questions. This also means that I can continue to contribute to it!
 
-## Thanks to you!
+##Thanks to you!
 
 A final few words of thanks. Thanks to my supervisors Simon and Steve for their patience and interest in the project. Thank you to ECMWF, Copernicus and our mentors, Julia, Claudia, Stefan and Shaun. The Summer of Weather Code project has been a massive learning curve and I am really excited to continue to develop the code and these relationships through my PhD.
 
