@@ -66,7 +66,7 @@ Much of our focus will be to make these models interpretable. One way of doing t
 
 1. Produce a data-processing pipeline that downloads the ECMWF/Copernicus open datasets, cleans that data and prepares the data ready for analysis and prediction.
 2. Implement an experimental set up for testing different algorithms and techniques for predicting drought metrics. We will compare different measures of drought (low rainfall - SPI, low river levels, low water availability - SPEI) and look at how they match up with major events (such as the 2011 Horn of Africa Drought).
-3. Use a variety of tools (e.g. [SHAP]()) for interpreting what the model is learning. *Let's open up the black box!*
+3. Use a variety of tools (e.g. [SHAP](https://github.com/slundberg/shap)) for interpreting what the model is learning. *Let's open up the black box!*
 4. Document, Document, Document! We want to make the steps clear to everyone and so we will be blogging throughout the process and documenting our steps. This will be both code documentation and documentation of the overall approach.
 5. Communicating our results. This will be through a series of (more polished) blog posts and a scientific paper.
 
