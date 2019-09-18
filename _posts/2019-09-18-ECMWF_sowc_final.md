@@ -13,7 +13,7 @@ date: 2019-09-18
 
 The four month Summer of Weather Code project has drawn to a close. The codebase can be found on Github [here](https://github.com/esowc/ml_drought). The process has been hugely informative and incredibly fun.
 
-<div style="width: 755px; border: 0;">
+<div style="width: 400px; border: 0;">
   <p>
     <img class="aligncenter" src="http://tommylees112.github.io/images/esowc_pipeline_overview.png" alt="ESoWC: The Pipeline" width="810" height="265"/>
   </p>
@@ -23,13 +23,13 @@ The four month Summer of Weather Code project has drawn to a close. The codebase
 
 Gabi and I have been writing code together almost every day from June through to the end of August. Some of the numbers speak for themselves.
 
-We have made <b>131<\b> commits to Master branch. These have all been `Squash and Merge` commits and so the number of total commits is at least 10x bigger than that number.
+We have made **131** commits to Master branch. These have all been `Squash and Merge` commits and so the number of total commits is at least 10x bigger than that number.
 
-We have written <b>18,544<\b> lines of Python code including <b>181<\b> unit tests! These are all run automatically using Travis Continuous Integration. For me, as a PhD student with no experience in software engineering this has been a massive learning curve. The ability to develop a complex code-base as part of a team has been made possible by learning about unit testing. Luckily, there are no statistics (yet) on how many of my / Gabi's tests passed because I had ALOT of failing tests...
+We have written **18,544** lines of Python code including **181** unit tests! These are all run automatically using Travis Continuous Integration. For me, as a PhD student with no experience in software engineering this has been a massive learning curve. The ability to develop a complex code-base as part of a team has been made possible by learning about unit testing. Luckily, there are no statistics (yet) on how many of my / Gabi's tests passed because I had ALOT of failing tests...
 
-In order to work together over national borders and time zones we used Slack to stay in contact. We sent over <b>15,600<\b> Slack messages just to each other!
+In order to work together over national borders and time zones we used Slack to stay in contact. We sent over **15,600** Slack messages just to each other!
 
-<div style="width: 400px; border: 0;">
+<div style="width: 250px; border: 0;">
   <p>
     <img class="aligncenter" src="http://tommylees112.github.io/images/esowc_numbers.png" alt="ESoWC by Numbers" width="810" height="265"/>
   </p>
